@@ -28,7 +28,7 @@ In this tutorial, we share out resources over the network and create file shares
 <img src="https://i.imgur.com/BgKuK35.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the previous tutorial on Active Directory, we created a Windows server virtual machine and named it DC-1. we also created a windows 10 virtual machine and named it Client-1. inside DC-1, we created a domain admin (koby.charis) and a bunch of non-administrative users. for this tutorial, we will log in to DC-1 as a domain admin (koby.charis) and Client-1 as a non-administrative user.
+From the previous tutorial on Active Directory, we created a Windows server virtual machine and named it DC-1. We also created a Windows 10 virtual machine and named it Client-1. inside DC-1, we created a domain admin (koby.charis) and a bunch of non-administrative users. for this tutorial, we will log in to DC-1 as a domain admin (koby.charis) and Client-1 as a non-administrative user.
 </p>
 <br />
 
