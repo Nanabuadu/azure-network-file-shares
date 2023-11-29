@@ -21,7 +21,6 @@ In this tutorial, we share out resources over the network and create file shares
 
 - Create some sample file shares with various permissions
 - Attempt to access file shares as a normal user
-- Create an "Accountants" Security Group, assign permissions, and test access
 
 <h2>Actions and Observations</h2>
 
@@ -82,17 +81,17 @@ Attempt to open the read-access folder and see it succeed. However, because we s
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/afu2eNr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Attempt to open the write-access folder and see it succeed. Also, attempt to create a text document file (Right-click -> New -> Text Document). the file will be created successfully because we set "Read/Write" permission to the folder, any attempt to perform any action in the folder will be successful.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VDhUsl0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Attempt to open the no-access folder and see it fail. We set "Read/Write" permission for "Domain Admins", in effect, Domain Users can not have access to the folder. Note that the name of the folder(no-access) has no bearing on this outcome.
 </p>
 <br />
